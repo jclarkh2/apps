@@ -4,9 +4,9 @@
     <StartLayoutCollection>
       <defaultlayout:StartLayout GroupCellWidth="6">
         <start:Group Name="Office">
-          <start:DesktopApplicationTile Size="1x1" Column="3" Row="0" DesktopApplicationID="com.squirrel.Teams.Teams" />
+          <start:DesktopApplicationTile Size="1x1" Column="3" Row="0" DesktopApplicationID="com.squirrel.Teams.Teams" />	  
           <start:DesktopApplicationTile Size="1x1" Column="2" Row="0" DesktopApplicationID="Microsoft.Office.POWERPNT.EXE.15" />
-          <start:Tile Size="1x1" Column="4" Row="0" AppUserModelID="Microsoft.SkypeApp_kzf8qxf38zg5c!App" />
+          <start:DesktopApplicationTile Size="1x1" Column="4" Row="0" DesktopApplicationID="Microsoft.Office.ONENOTE.EXE.15" />
           <start:DesktopApplicationTile Size="1x1" Column="2" Row="1" DesktopApplicationID="MSEdge" />
           <start:DesktopApplicationTile Size="1x1" Column="4" Row="1" DesktopApplicationID="Microsoft.SkyDrive.Desktop" />
           <start:DesktopApplicationTile Size="1x1" Column="0" Row="1" DesktopApplicationID="Chrome" />
