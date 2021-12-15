@@ -17,6 +17,13 @@ Begin {
         "Microsoft.WindowsCommunicationsApps", # Mail, Calendar etc
         "Microsoft.WindowsSoundRecorder", 
         "Microsoft.WindowsStore"
+        # Dell Apps
+        DellInc.PartnerPromo 
+        DellInc.DellSupportAssistforPCs
+        DellInc.DellDigitalDelivery
+        DellInc.DellPowerManager
+        DellInc.DellCommandUpdate
+        DellInc.DellOptimizer
     ))
 
     # Windows 10 version 1809
