@@ -16,13 +16,13 @@ Begin {
         "Microsoft.WindowsCalculator", 
         "Microsoft.WindowsCommunicationsApps", # Mail, Calendar etc
         "Microsoft.WindowsSoundRecorder", 
-        "Microsoft.WindowsStore"
+        "Microsoft.WindowsStore",
         # Dell Apps
-        "DellInc.PartnerPromo" 
-        "DellInc.DellSupportAssistforPCs"
-        "DellInc.DellDigitalDelivery"
-        "DellInc.DellPowerManager"
-        "DellInc.DellCommandUpdate"
+        "DellInc.PartnerPromo",
+        "DellInc.DellSupportAssistforPCs",
+        "DellInc.DellDigitalDelivery",
+        "DellInc.DellPowerManager",
+        "DellInc.DellCommandUpdate",
         "DellInc.DellOptimizer"
     ))
 
@@ -50,7 +50,14 @@ Begin {
 
     # Windows 10 version 20H2
     $WhiteListedApps.AddRange(@(
-        "Microsoft.MicrosoftEdge.Stable"
+        "Microsoft.MicrosoftEdge.Stable",
+         # Dell Apps
+        "DellInc.PartnerPromo",
+        "DellInc.DellSupportAssistforPCs",
+        "DellInc.DellDigitalDelivery",
+        "DellInc.DellPowerManager",
+        "DellInc.DellCommandUpdate",
+        "DellInc.DellOptimizer"
     ))
 }
 Process {
