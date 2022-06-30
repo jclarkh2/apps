@@ -1,11 +1,9 @@
 <Configuration>
-    <Add OfficeClientEdition="32" Channel="Monthly">
+    <Add OfficeClientEdition="64" Channel="Current">
         <Product ID="O365ProPlusRetail">
             <Language ID="en-us"/>
         </Product>
     </Add>
-    <Updates Enabled="TRUE" Channel="Monthly"/>
-    <Property Name="FORCEAPPSHUTDOWN" Value="TRUE"/>
+    <Updates Enabled="TRUE" Channel="Current"/>
     <Display AcceptEULA="TRUE" Level="None" />
-    <Logging Level="Standard" Path="%temp%" />
 </Configuration>
