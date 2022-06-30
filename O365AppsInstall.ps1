@@ -70,4 +70,3 @@ Write-Verbose "Elapsed Time: $(($EndDTM-$StartDTM).TotalSeconds) Seconds" -Verbo
 Write-Verbose "Elapsed Time: $(($EndDTM-$StartDTM).TotalMinutes) Minutes" -Verbose
 
 Get-ChildItem -Path C:\Temp -Include *.* -File -Recurse | foreach { $_.Delete()}
-Restart-Computer -Force
