@@ -5,5 +5,5 @@
         </Product>
     </Add>
     <Updates Enabled="TRUE" Channel="Current"/>
-    <Display AcceptEULA="TRUE" Level="None" />
+    <Display AcceptEULA="TRUE" Level="Full" />
 </Configuration>
