@@ -178,4 +178,5 @@ else {
 
 if ($CleanUpInstallFiles) {
   Remove-Item -Path $OfficeInstallDownloadPath -Force -Recurse
+  Get-ChildItem -Path C:\Temp -Include *.* -File -Recurse | foreach { $_.Delete()}
 }
