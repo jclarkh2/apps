@@ -1,0 +1,24 @@
+﻿Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\current\device\Start]
+"ConfigureStartPins"="{ \"pinnedList\": [ { \"desktopAppId\": \"Microsoft.Office.WINWORD.EXE.15\" }, { \"desktopAppId\": \"Microsoft.Office.EXCEL.EXE.15\" }, { \"desktopAppId\": \"Microsoft.Office.OUTLOOK.EXE.15\" }, { \"desktopAppId\": \"Microsoft.Office.GROOVE.EXE.15\" }, { \"desktopAppId\": \"MSEdge\" }, { \"desktopAppId\": \"308046B0AF4A39CB\" } ] }"
+"ConfigureStartPins_ProviderSet"=dword:00000001
+"ConfigureStartPins_WinningProvider"="B5292708-1619-419B-9923-E5D9F3925E71"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\providers]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\providers\B5292708-1619-419B-9923-E5D9F3925E71]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\providers\B5292708-1619-419B-9923-E5D9F3925E71\default]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\providers\B5292708-1619-419B-9923-E5D9F3925E71\default\Device]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\providers\B5292708-1619-419B-9923-E5D9F3925E71\default\Device\Start]
+"ConfigureStartPins"="{ \"pinnedList\": [ { \"desktopAppId\": \"Microsoft.Office.WINWORD.EXE.15\" }, { \"desktopAppId\": \"Microsoft.Office.EXCEL.EXE.15\" }, { \"desktopAppId\": \"Microsoft.Office.OUTLOOK.EXE.15\" }, { \"desktopAppId\": \"Microsoft.Office.GROOVE.EXE.15\" }, { \"desktopAppId\": \"MSEdge\" }, { \"desktopAppId\": \"308046B0AF4A39CB\" } ] }"
+"ConfigureStartPins_LastWrite"=dword:00000001
