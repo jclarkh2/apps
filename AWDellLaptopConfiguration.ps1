@@ -1445,7 +1445,7 @@ if ($buildNumber -ge 22000) {
     Write-Log "Windows 11 detected - user logoff required to apply Start Menu and Taskbar changes"
 }
 
-{{ ... }}
+if ($pendingReboot) {
     Write-Log ""
     Write-Log "*** RESTART REQUIRED ***" -Level Warning
     Write-Log "Some installations require a system restart to complete." -Level Warning
